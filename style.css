@@ -1,0 +1,510 @@
+* {
+    
+    font-family: 'Gilda Display', serif
+}
+
+h1 {
+    font-size: 5.813rem !important;
+    font-weight: lighter !important;
+    letter-spacing: -1.5px !important;
+}
+
+h2 {
+    font-size: 3.625rem !important;
+    font-weight: lighter !important;
+    letter-spacing: -0.5px !important;
+}
+
+h3 {
+    font-size: 2.875rem !important;
+    letter-spacing: 0px !important;
+}
+
+h4 {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    font-size: 2.063rem;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-size: 1.438rem;
+    letter-spacing: 0px;
+}
+
+h6 {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    font-size: 1.188rem;
+    letter-spacing: 0.15px;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    font-size: 0.875rem;
+    letter-spacing: 0.25px;
+}
+
+button {
+    font-weight: normal;
+    font-size: 0.875rem !important;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    padding-inline: 1rem !important;
+}
+
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.background-img {
+    background-image: url("/media/top\ image.jpeg");
+    background-blend-mode: difference;
+    background-position: center;
+    background-size: cover;
+
+    /* height: 90vh; */
+
+}
+
+.background-img1 {
+    background-image: url("/media/top-slider1.jpeg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 90vh;
+
+}
+
+.background-img2 {
+    background-image: url("/media/top-slider2.jpeg");
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 90vh;
+
+}
+
+.background-img-ac {
+    /* background-image: url("/media/ac-room.jpeg"); */
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/ac-room.jpeg');
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    height: 70vh;
+
+}
+
+.black {
+    background-color: #000000;
+}
+
+.background-img-noac {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/media/no-ac-room.jpeg');
+    /* background-image: url("/media/no-ac-room.jpeg"); */
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 70vh;
+
+}
+
+.top-nav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical-center {
+    margin-top: 40vh;
+}
+
+.op-3 {
+    background-color: rgba(0, 0, 0, 0.299);
+    color: white;
+}
+.op-5 {
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+}
+.op-6 {
+    background-color: rgba(0, 0, 0, 0.600);
+    color: white;
+}
+
+.rooms {
+    background-color: rgb(88, 175, 88);
+}
+
+.room h5 {
+    width: fit-content;
+    padding: 10px;
+    background-color: rgb(34, 144, 34);
+}
+
+.testimonials {
+    background-color: rgb(34, 144, 34);
+}
+
+.test-slide {
+    background-color: white;
+}
+
+.carousel-indicators {
+    margin-bottom: 70px;
+}
+
+.room {
+    color: white;
+}
+
+.images {
+    margin: 25px;
+}
+
+.images img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.family-room-img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/media/family-room-1.jpeg');
+}
+.bunglow-img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/media/bunglow-1.jpeg');
+}
+.cottage-img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/media/cottage-1.jpeg');
+}
+.bamboo-img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/media/bamboo-1.jpeg');
+}
+.ac-villa-img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/media/villa-1.jpeg');
+}
+
+.facilities-card {
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid green;
+    margin-bottom: 5px;
+}
+
+.room-card {
+    background: rgb(210, 222, 210);
+    padding-bottom: 15px;
+    border-radius: 15px;
+    
+}
+
+.fade-in-right {
+    animation: fadeInRight 1s ease-in-out;
+}
+
+.room-card img {
+    
+    z-index: 1 !important;
+}
+
+.view-details {
+    z-index: 2 !important;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    border-radius: 10px;
+
+    margin-top: -50px;
+}
+
+.view-details h5 {
+    margin-bottom: 30px;
+}
+
+.view-details button {
+    background-color: green;
+    color: white;
+    border: 0px solid ;
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.services {
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: rgb(210, 222, 210);
+    /* color: white; */
+}
+
+.enquire-now {
+    padding: 20px;
+    /* margin: 25px; */
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+
+}
+
+.light-green {
+    padding-top: 25px;
+    background: rgb(210, 222, 210);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    height: 6rem;
+    width: 100vw;
+    background-color: white;
+    /* background-color: rgb(34, 144, 34); */
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    /* position: fixed; */
+    z-index: 10;
+    color: #000000 !important;
+}
+
+/*Styling logo*/
+.logo {
+    padding: 1vh 1vw;
+    text-align: center;
+    margin-left: 38vw;
+}
+
+.logo img {
+    height: 5rem;
+    width: 5rem;
+}
+
+/*Styling Links*/
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 88vw;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000 !important;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 0 0.7vw;
+    color: #000000 !important;
+}
+
+.nav-links li {
+    position: relative;
+    color: #000000 !important;
+}
+
+.nav-links li a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    color: #000000 !important;
+    background-color: #61DAFB;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+}
+
+.nav-links li a:hover::before {
+    width: 80%;
+    color: #000000 !important;
+}
+
+
+
+
+/*Styling Hamburger Icon*/
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background: #00070b;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+@media screen and (min-width: 800px) {
+    .wraper {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+    .logo {
+        padding: 1vh 1vw;
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .logo img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .wraper {
+        margin-inline: 400px;
+    }
+}
+
+.top-section h2 ::after {
+    content: '+';
+}
+
+/*Stying for small screens*/
+@media screen and (max-width: 800px) {
+    nav {
+        /* position: fixed; */
+        z-index: 10;
+        color: #000000 !important;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.7s ease;
+    }
+
+    .nav-links {
+        color: black !important;
+        position: fixed;
+        background: white;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+
+    .nav-links.open {
+        color: #000000 !important;
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+    }
+
+    /* .nav-links li{
+        opacity: 0;
+    } */
+    .nav-links li:nth-child(1) {
+        color: #000000 !important;
+        transition: all 0.5s ease 0.2s;
+    }
+
+    .nav-links li:nth-child(2) {
+        transition: all 0.5s ease 0.4s;
+    }
+
+    .nav-links li:nth-child(3) {
+        transition: all 0.5s ease 0.6s;
+    }
+
+    .nav-links li:nth-child(4) {
+        transition: all 0.5s ease 0.7s;
+    }
+
+    .nav-links li:nth-child(5) {
+        transition: all 0.5s ease 0.8s;
+    }
+
+    .nav-links li:nth-child(6) {
+        transition: all 0.5s ease 0.9s;
+        margin: 0;
+    }
+
+    .nav-links li:nth-child(7) {
+        transition: all 0.5s ease 1s;
+        margin: 0;
+    }
+
+    li.fade {
+        color: #000000 !important;
+        opacity: 1;
+    }
+
+    .fade {
+        color: #000000 !important;
+        opacity: 1 !important;
+    }
+}
+
+/*Animating Hamburger Icon on Click*/
+.toggle .line1 {
+    transform: rotate(-45deg) translate(0px, 5px);
+}
+
+.toggle .line2 {
+    transition: all 0.7s ease;
+    width: 0;
+}
+
+.toggle .line3 {
+    transform: rotate(45deg) translate(0px, -5px);
+}
